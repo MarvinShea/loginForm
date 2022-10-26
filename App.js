@@ -12,7 +12,7 @@ function App() {
     },
 
     onSubmit: values => {
-      alert("Login Successful")
+      setTimeout(() => alert("Login Successful"), 500)
     },
 
     validate: values => {
